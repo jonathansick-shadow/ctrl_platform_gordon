@@ -34,3 +34,12 @@ lists are handled within ctrl_execute, to add these additional new parameters
 we would also have to think about how this would be handled in the template
 files too, particularly in etc/templates/config_with_setups.py.template.
 
+running from projects vs scratch
+
+As I write this, Gordon is having work done on it's "projects" directory
+and the file system for that space is not mounted.  I moved everything
+to scratch during this time, and the files that are checked in reflect
+that.  It would probably be better to run this out of "projects" since
+that's supposed to be more permanent. So, when the ticket is picked
+back up again move it back.
+
